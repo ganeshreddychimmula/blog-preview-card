@@ -72,3 +72,12 @@ body{
     justify-content: space-between;
     gap: 12px
 }
+
+.content-category{
+    width: fit-content;
+    padding: 4px 12px;
+    background-color: var(--yellow);
+    border-radius: 4px;
+    text-align: center;
+    font-family: "FigTree";
+}
