@@ -39,3 +39,18 @@ html, body{
     height: 100%;
     overflow: hidden;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--yellow);
+}
+
+.blog-preview-card {
+    position: relative;
+    width: 384px;
+    height: min-content;
+    border: 1px solid black;
+}
