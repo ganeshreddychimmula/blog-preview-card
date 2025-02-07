@@ -1,25 +1,7 @@
 @font-face {
     font-family: FigTree;
-    /*
-    Yes, when using @font-face, the font-family value 
-    (which defines the name of the font) should be enclosed in quotes if it contains multiple words, 
-    but it’s not strictly required if it's a single word.
-    */
     src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype-variations");
-    /*
-    The format("ttf-variations") value in the @font-face src declaration is used for variable TrueType fonts (TTF) 
-    that support multiple weights, widths, and styles in a single file.
-    Used for browsers that natively recognize variable fonts in ttf format.
-    Some browsers can detect that the file contains variations just from ttf-variations.
-    If a browser does not support this format, it will skip this declaration
-    */
     src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype") tech("variations")
-    /*
-    Explicitly tells the browser that this is a ttf font with variations.
-    Some browsers recognize format('tff') but require tech('variations') to enable variable font features.
-    Ensures better support across different implementations of variable fonts.
-    Fallback Mechanism: If a browser doesn't understand ttf-variations, it might still process woff2 with tech('variations').
-    */
 }
 
 @font-face {
