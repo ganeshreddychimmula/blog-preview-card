@@ -102,8 +102,12 @@ body{
     color: var(--dark-gray);
 }
 
-.content-title{
+.content-title, .content-title:hover {
     font-family: FigTreeBold, serif;
+}
+
+.content-title:hover {
+    color: var(--yellow);
 }
 
 .content-description{
