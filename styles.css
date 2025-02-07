@@ -65,3 +65,10 @@ body{
     width: max-content;
     border-radius: 10px;
 }
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px
+}
